@@ -1,0 +1,50 @@
+*{
+  font-family: 'Microsoft Jhenghei';
+  line-height: 1.2em;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 800px;
+}
+
+.header {
+  padding: 15px;
+  border: 3px solid #333;
+}
+
+.header img {
+  width: 150px;
+}
+
+.container {
+  height: 350px;
+  padding: 0px 20px;
+  border: 3px solid #D91E36;
+}
+
+.container p{
+  color: #3F84E5;
+  margin-bottom: 20px;
+}
+
+.container a {
+  display: block;
+  text-align: center;
+  width: 90px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #3f84e5;
+}
+
+.container a:hover {
+  color: #2A0800;
+  background-color: #FFD275;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #E4A0C9;
+}
