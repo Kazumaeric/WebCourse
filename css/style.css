@@ -1,50 +1,215 @@
-*{
-  font-family: 'Microsoft Jhenghei';
+/* http://meyerweb.com/eric/tools/css/reset/ 
+  v2.0 | 20110126
+  License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Style Css */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400&family=Roboto:wght@300;500&display=swap');
+
+
+body{
+  font-family: 'Roboto', 'Noto Sans TC', sans-serif;
   line-height: 1.2em;
 }
 
 .wrap {
-  margin: 0 auto;
-  width: 800px;
+  margin: 36px auto 0px auto;
+  width: 1200px;
+  padding: 36px 0px;
+}
+
+.wrap-wide {
+  margin: 36px auto 0px auto;
+  padding: 36px 0px;
+  width: 100%;
 }
 
 .header {
-  padding: 15px;
-  border: 3px solid #333;
+  padding-top: 22px;
+  border-bottom: 2px solid #000;
 }
 
-.header img {
-  width: 150px;
+.title-name {
+  width: 264px;
+  font-family: Roboto, Regular;
+  font-size: 80px;
+  line-height: 94px;
+  margin: 15px 0px;
 }
 
-.container {
-  height: 350px;
-  padding: 0px 20px;
-  border: 3px solid #D91E36;
+.wrap .photo {
+  width: 324px;
+  margin: 48px 0px;
 }
 
-.container p{
-  color: #3F84E5;
-  margin-bottom: 20px;
+.wrap div p {
+  font-size: 24px;
+  line-height: 36px;
+  padding: 8px 0px 16px 0px;
 }
 
-.container a {
-  display: block;
-  text-align: center;
-  width: 90px;
-  padding: 10px 20px;
-  text-decoration: none;
+.wrap div ul li{
+  font-size: 24px;
+  line-height: 36px;
+  padding: 8px 0px 16px 0px;
+}
+
+.wrap-wide div ul li{
+  font-size: 24px;
+  line-height: 36px;
+  padding: 8px 0px 16px 0px;
+}
+
+.title-data {
+  font-size: 32px;
+  line-height: 43px;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #000;
+}
+
+.title-data span {
+  margin-left: 16px;
+  font-size: 24px;
+  color: #A00404;
+  line-height: 43px;
+  vertical-align: bottom;
+}
+
+.bg-dark {
+  background: #415165;
+}
+
+.fc-light, .fc-light span {
   color: #fff;
-  background-color: #3f84e5;
 }
 
-.container a:hover {
-  color: #2A0800;
-  background-color: #FFD275;
+.fc-light h2 {
+  border-bottom: 1px solid #FFF;
+}
+
+.fc-light ul {
+  font-weight: 300;
+}
+
+.side-border {
+  border-left: 1px solid #96A9C4;
+  margin-left: 24px;
+  padding-left: 24px;
+}
+
+.center {
+  text-align: center;
+}
+
+.fixed-width {
+  width: 642px;
+}
+
+.work996 {
+  width: 996px;
+}
+
+.w1200{
+  width: 1200px;
+}
+
+.m-auto {
+  margin: 0 auto;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-56 {
+  margin-bottom: 56px;
+}
+
+.skills {
+  padding-top: 24px;
+}
+
+.skills ul {
+  display: table;
+  margin-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work ul {
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.work ul p {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.work img {
+  width: 90px;
 }
 
 .footer {
-  padding: 20px;
-  text-align: center;
-  background-color: #E4A0C9;
+  font-size: 24px;
+}
+
+.footer img {
+  width: 48px;
+  padding-right: 24px;
+}
+
+.footer ul {
+  padding: 8px 0px;
+}
+
+.footer ul li {
+  font-weight: 300;
+  padding: 8px 0px;
 }
